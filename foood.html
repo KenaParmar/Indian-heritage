@@ -1,0 +1,118 @@
+
+<html>
+<head>
+    
+    <title>Flavors of India - A Vegetarian Culinary Journey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #4A1818;
+            background-color: #D1C3AA;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #630e0e;
+            color:#e19556;
+            text-align: center;
+            padding: 2rem;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        h1, h2 {
+            color: #6B2424;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .gallery-item {
+            background-color: #E18E8E;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(74, 24, 24, 0.1);
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 300px; 
+            object-fit: cover;
+            transition: opacity 0.3s;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item:hover img {
+            opacity: 0.8;
+        }
+        .gallery-item figcaption {
+            background-color: #C17171;
+            color:  #4A1818;;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color:#D1C3AA;">Flavors of India</h1>
+    </header>
+    <main>
+        <section>
+            <h2 style="text-align: center;">Explore the Rich Tapestry of Indian Cuisine</h2>
+            <p>Embark on a gastronomic adventure through the diverse landscapes of India. From the aromatic curries of the North to the spicy dosas of the South, Indian vegetarian cuisine offers a symphony of flavors that tell the story of its rich cultural heritage.</p>
+        </section>
+        <section>
+            <h2 style="text-align: center;">Gallery of Indian Delicacies</h2>
+            <div class="gallery">
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\dhokla.jpeg" alt="Dhokla">
+                    <figcaption>Dhokla</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\idli.jpeg" alt="Idli Sambhar">
+                    <figcaption>Idli Sambhar</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\khandvi.jpeg" alt="khandvi">
+                    <figcaption>khandvi</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\palak paneer.jpg" alt="Palak Paneer">
+                    <figcaption>Palak Paneer</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\dosa.jpeg" alt="Masala Dosa">
+                    <figcaption>Masala Dosa</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\biryani.jpeg" alt="Vegetable Biryani">
+                    <figcaption>Vegetable Biryani</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\panipuri_.jpg" alt="Pani Puri">
+                    <figcaption>Pani Puri</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\malaikofta.jpeg" alt="Malai Kofta">
+                    <figcaption>Malai Kofta</figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="C:\Indian Heritage\food\images\dalmakhni.jpeg" alt="Dal Makhani">
+                    <figcaption>Dal Makhani</figcaption>
+                </figure>
+
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
